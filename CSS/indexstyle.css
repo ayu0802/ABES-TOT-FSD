@@ -1,0 +1,29 @@
+/* h1{
+    background-color: brown;
+} */
+
+div~p{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/* p:hover{
+    font-size: xx-large;
+    background-color: blanchedalmond;
+    color: brown;
+} */
+
+p::before{
+    content:"Welcome,to ABES Engineering College";
+}
+
+p::after{
+    content: "We have successfully Completed this group";
+    background-color: aliceblue;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+P::selection{
+    background-color: chartreuse;
+}
