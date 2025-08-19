@@ -26,8 +26,8 @@
 .box2{
 
     display: grid;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border: 2px solid palevioletred;
     background-color: rgb(0, 255, 72);
     grid-template-columns: repeat(2,1fr);
