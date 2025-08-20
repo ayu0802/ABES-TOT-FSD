@@ -74,3 +74,49 @@
 
 // const add=(a,b)=>a+b;
 // add(20,40);
+
+// (()=>{
+//     console.log("Hello, there!!")
+// })();
+
+// (function (){
+//     console.log("welcome to the FSD")
+// })();
+
+// to get default Data 
+//  function greet(msg="Hello!!"){
+//     console.log("Hi"+msg);
+//  }
+//  console.log(greet("Welcome to ABES!!"));
+
+// //another  
+//  function greet(msg="Hello!!"){
+//     return "Hi"+msg;
+//  }
+//  console.log(greet("Welcome to ABES!!"));
+
+
+//calling funtion into a function
+
+function selectlanguage(lang){
+    let data;
+    if(lang=="java"){
+    function javaCompiler(){
+        console.log("java compiler is being excuted!!")
+    }
+  data=javaCompiler();
+
+    }
+    else if(lang=="c"){
+        function cCompiler(){
+            console.log("C compiler is being excuted!!")
+        }
+        data=cCompiler();
+    }
+    else{
+        // data="Selected language compiler is not found";
+        console.log("Selected language is not being executed!!")
+    }
+}
+
+selectlanguage("pyhton");
