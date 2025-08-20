@@ -9,10 +9,22 @@
 // console.log(a);
 // console.log(typeof(a));
 
+// let a=12;
+// if(a>10){
+//     let a=30;
+//     console.log("a="+a);
+// }
+
+// console.log(a);
+
+
+
 let a=12;
-if(a>10){
-    let a=30;
-    console.log("a="+a);
+let b="12";
+if(a==b){
+    console.log("hii.....there")
 }
 
-console.log(a);
+else{
+    console.log("Welcome to JS")
+}
