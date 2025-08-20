@@ -19,9 +19,21 @@
 
 
 
+// let a=12;
+// let b="12";
+// if(a==b){
+//     console.log("hii.....there")
+// }
+
+// else{
+//     console.log("Welcome to JS")
+// }
+
+
 let a=12;
 let b="12";
-if(a==b){
+//use of triple equal too 
+if(a===b){
     console.log("hii.....there")
 }
 
