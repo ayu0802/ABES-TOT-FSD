@@ -30,13 +30,47 @@
 // }
 
 
-let a=12;
-let b="12";
-//use of triple equal too 
-if(a===b){
-    console.log("hii.....there")
-}
+// let a=12;
+// let b="12";
+// //use of triple equal too 
+// if(a===b){
+//     console.log("hii.....there")
+// }
 
-else{
-    console.log("Welcome to JS")
-}
+// else{
+//     console.log("Welcome to JS")
+// }
+
+// function sum(a,b){
+//     return a+b;
+// }
+// let val=sum(12,20);
+// console.log("sum"+val);
+
+//hosting: before execution we can call the method || one should avoid this process. 
+// let val=sum(12,20);
+// console.log("sum"+val);
+// function sum(a,b){
+//     return a+b;
+// }
+
+// function expression 
+
+// const data=function(){
+//     console.log("hi, how are you");
+// }
+// data();
+
+// arrow function 
+
+// const data=()=>{
+//     return "Hi, Welcome to FSD"
+// }
+// console.log(data());
+
+// const sum=(a,b)=>{
+//     return a+b;
+// }
+
+// const add=(a,b)=>a+b;
+// add(20,40);
